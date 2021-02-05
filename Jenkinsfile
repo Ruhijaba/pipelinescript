@@ -29,6 +29,6 @@ stage('email')
 {
 emailext body: '''Build complete
 regards,
-Ruhi''', subject: 'Build is over', to: 'ruhijabaroo6@gmail.com,chandanakamatham11@gmail.com'
+Ruhi''', subject: 'Build is over', to: 'ruhijabaroo6@gmail.com,roo@gmail.com'
 }
 }
